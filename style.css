@@ -2,20 +2,44 @@
     width: 200px;
     height:  200px;
     border: ridge gold;
-    background-color: rgb(0, 153, 51);
-    border-width: 11px;
-    border-radius: 50%;
+    background-color: white;
+    border-width: 25px;
+    
     margin: 30px auto;
     padding:1em;
     position:relative;
 }
-
+body{
+    display: grid;
+    justify-content: center;
+    background-image: url(https://w0.peakpx.com/wallpaper/564/868/HD-wallpaper-cabin-interior-with-a-fireplace-interior-fireplace-architecture-cabin.jpg);
+    background-size: 90%;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'parisienne';
+    font-size: 80px;
+}
 .hand{
-    border: solid gold;
+    border: solid black;
     width: 100px;
     height: 0%;
     position: absolute;
     transform-origin: 100%;
-    top:50%
+    top:50%;
+    right: 50%;
 
+}
+.clockbox{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left, .right{
+    background-image: url(https://www.ifabric.com/cdn/shop/products/Red_00fc414f-e009-43b2-9787-fd9ebd6fd31c.jpg?v=1524441492);
+    width: 45%;
+    height: 25vh;
+    border: solid rgb(77, 0, 0);
 }
